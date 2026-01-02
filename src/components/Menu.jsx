@@ -1,5 +1,10 @@
 import { useState } from "react";
 import Butterchicken from "../assets/Butter-chicken.jpg";
+import PannerCurry from "../assets/Paneer-curry.jpg";
+import VegBiryani from "../assets/Veg-Biryani.jpeg";
+import PannerCurry from "../assets/Paneer-curry.jpg";
+import NonVegThali from "../assets/Non-Veg-Thali.avif";
+import VegThali from "../assets/Veg-Thali.jpg";
 import { useEffect } from "react";
 
 /* ================= CONFIG ================= */
@@ -38,14 +43,14 @@ const MENU = [
     name: "Veg Biryani",
     price: 180,
     type: "veg",
-    image: Butterchicken,
+    image: VegBiryani,
   },
   {
     id: 3,
     name: "Paneer Curry",
     price: 200,
     type: "veg",
-    image: Butterchicken,
+    image: PannerCurry,
     bestseller: true,
   },
   {
@@ -53,14 +58,14 @@ const MENU = [
     name: "Veg Thali",
     price: 150,
     type: "veg",
-    image: Butterchicken,
+    image: VegThali,
   },
   {
     id: 5,
     name: "Non-Veg Thali",
     price: 150,
     type: "nonveg",
-    image: Butterchicken,
+    image: NonVegThali,
   },
 ];
 const orderId = `CK-${Date.now().toString().slice(-6)}`;
