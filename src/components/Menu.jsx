@@ -1,8 +1,7 @@
 import { useState } from "react";
 import Butterchicken from "../assets/Butter-chicken.jpg";
-import PannerCurry from "../assets/Paneer-curry.jpg";
 import VegBiryani from "../assets/Veg-Biryani.jpeg";
-import PannerCurry from "../assets/Panner-Curry.jpg";
+import PaneerCurry from "../assets/Paneer-curry.jpg";
 import NonVegThali from "../assets/Non-Veg-Thali.avif";
 import VegThali from "../assets/Veg-Thali.jpg";
 import { useEffect } from "react";
@@ -50,7 +49,7 @@ const MENU = [
     name: "Paneer Curry",
     price: 200,
     type: "veg",
-    image: PannerCurry,
+    image: PaneerCurry,
     bestseller: true,
   },
   {
