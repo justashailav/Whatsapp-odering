@@ -2,7 +2,7 @@ import { useState } from "react";
 import Butterchicken from "../assets/Butter-chicken.jpg";
 import PannerCurry from "../assets/Paneer-curry.jpg";
 import VegBiryani from "../assets/Veg-Biryani.jpeg";
-import PannerCurry from "../assets/Paneer-curry.jpg";
+import PannerCurry from "../assets/Panner-curry.jpg";
 import NonVegThali from "../assets/Non-Veg-Thali.avif";
 import VegThali from "../assets/Veg-Thali.jpg";
 import { useEffect } from "react";
